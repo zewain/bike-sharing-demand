@@ -32,9 +32,9 @@ If there are outliers in the data, it may be necessary to drop some rows based o
 ### Create a table with the models you ran, the hyperparameters modified, and the kaggle score.
 |model|hpo1|hpo2|hpo3|score|
 |--|--|--|--|--|
-|initial|?|?|?|1.79867|
-|add_features|?|?|?|0.45127|
-|hpo|?|?|?|0.55359|
+|initial|Default Values|Default Values|Default Values|1.79867|
+|add_features|Default Values|Default Values|Default Values|0.45127|
+|hpo|nn: num_epochs(8:1024), learning_rate(1e-5: 1e-2), activation(relu, softrelu, tanh),dropout_prob(0.0: 1)|gbm: num_boost_round (10:2000), num_leaves(lower=8:upper=512}|Default Values|0.55359|
 
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
